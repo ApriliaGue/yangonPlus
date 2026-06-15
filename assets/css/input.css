@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-2xl: 90rem;
+  --font-sans: "Spline Sans",sans-serif;
+  --font-roboto: "Roboto",sans-serif;
+}
+
+@layer {
+  /* .container {
+        @apply max-w-[1440px] mx-auto px-6 lg:px-15;
+    } */
+  .layout1 {
+    @apply mx-auto p-10 bg-[#F8F8F5];
+  }
+  .layout2 {
+    @apply mx-auto p-10;
+  }
+  .text-border {
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.31);
+    paint-order: stroke fill;
+  }
+  .pic {
+    width: full;
+    min-height: 440px;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+  .carousel { display: flex; overflow: hidden; }
+  .banner {
+    display: flex;
+    flex-shrink: 0;
+    min-width: 100%;
+    padding-left: 30px;
+    gap: 30px;
+    animation: moveLeft 8000ms linear 1ms infinite;
+  }
+  /* .carousel:hover .banner{
+    animation-play-state: paused;
+  } */
+  .img {
+    min-width: 400px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+  @keyframes moveLeft {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+  }
+}
