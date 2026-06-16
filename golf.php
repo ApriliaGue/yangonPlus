@@ -2,11 +2,12 @@
     <div class="absolute inset-0 bg-[url(/assets/img/bg1.jpg)] bg-cover bg-center opacity-20"></div>
     <div class="relative z-10 flex flex-col justify-start">
         <div class="flex items-start justify-between flex-col md:flex-row text-white p-10 gap-10">
-            <h4 class="text-4xl font-semibold leading-relaxed  md:w-[25%]">Our Popular<br>Golf Tours</h4>
-            <div class="grid grid-cols-3 gap-4  md:w-[75%]"> <?php for ($i = 0; $i < 3; $i++): ?>
+            <h4 class="text-4xl md:text-3xl lg:text-4xl font-semibold leading-relaxed md:w-[25%]">Our Popular<br>Golf Tours</h4>
+            <div class="grid grid-cols-3 gap-4 md:w-[75%]">
+                <?php for ($i = 0; $i < 3; $i++): ?>
                     <a href="golftour-detail.php">
                         <div class="relative group overflow-hidden">
-                            <img src="assets/img/golf5.png" alt="" class="pic"></img>
+                            <img src="assets/img/golf5.png" alt="" class="w-full min-h-96 md:min-h-72 lg:min-h-110 object-cover rounded-2xl"></img>
                             <div class="flex absolute bottom-5 left-5 right-5 justify-between items-center gap-1 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 ease-out">
                                 <h5 class="text-xl font-semibold my-auto truncate">TH-Pattaya-Black Mountain Golf Club-6days</h5>
                                 <svg class="shrink-0 w-9 h-9" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -18,7 +19,6 @@
                     </a>
                 <?php endfor; ?>
             </div>
-
         </div>
     </div>
 </div>

@@ -15,17 +15,11 @@
     @apply mx-auto p-10 bg-[#F8F8F5];
   }
   .layout2 {
-    @apply mx-auto p-10;
+    @apply mx-auto p-10 bg-white;
   }
   .text-border {
     -webkit-text-stroke: 1px rgba(0, 0, 0, 0.31);
     paint-order: stroke fill;
-  }
-  .pic {
-    width: full;
-    min-height: 440px;
-    object-fit: cover;
-    border-radius: 16px;
   }
   .carousel { display: flex; overflow: hidden; }
   .banner {
@@ -48,5 +42,18 @@
   @keyframes moveLeft {
     0% { transform: translateX(0%); }
     100% { transform: translateX(-100%); }
+  }
+  .hero-zoom {
+    animation: heroZoom 12s ease-in-out infinite alternate;
+    transform-origin: center;
+    will-change: transform;
+  }
+  @keyframes heroZoom {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.25);
+    }
   }
 }

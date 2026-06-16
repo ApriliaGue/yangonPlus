@@ -1,12 +1,12 @@
 <div class="layout2 text-[#626A82]">
-    <div class="text-center mx-40">
+    <div class="text-center mx-40 md:mx-20">
         <h4 class="text-black text-4xl font-semibold leading-tight">Why Choose Yangon Plus Travel?</h4>
         <p class="text-lg text-[#3E465F] font-medium py-3">
             Experience seamleDiscover why travelers trust Yangon Plus. From innovative tour programs to expert guidance, we provide seamless travel experiences tailored to your expectations.ss trip planning with Myanmar’s leading agency.
         </p>
     </div>
     <!-- Card -->
-    <div class="grid grid-cols-3 gap-8 mt-8">
+    <div class="grid grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
         <div class="text-center bg-[#F8F8F5] p-10 rounded-2xl">         
             <svg class="mx-auto w-18 h-18" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="72" height="72" rx="36" fill="#2E3192"/>

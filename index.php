@@ -1,15 +1,16 @@
 <?php include 'header.php'; ?>
 <main>
     <!-- Hero Section -->
-    <section class="relative h-[700px] md:h-screen bg-[url(/assets/img/bg.jpg)] bg-cover bg-center flex flex-col items-center justify-center text-center">
+    <section class="relative h-175 md:h-screen bg-cover bg-center flex flex-col items-center justify-center text-center overflow-hidden">
+        <img src="/assets/img/bg.jpg" alt="" class="h-full w-full object-cover absolute inset-0 hero-zoom">
         <div class="relative z-10 max-w-4xl mx-auto space-y-4">
             <h1 class="text-6xl md:text-7xl font-bold text-[#FFFFFF] leading-tight text-border text-shadow-lg/25">
                 Uncover <br> the Soul of Myanmar
             </h1>
-            <p class="text-4xl md:text-lg text-[#F8F8F5] font-medium mb-8">
+            <p class="text-3xl md:text-lg text-[#F8F8F5] font-medium mb-8">
                 Curated adventure packages for the modern explorer. Experience the Golden Land like never before.
             </p>
-            <a href="#popular-tours" class="bg-[#EFD64D] hover:bg-[#EBE359] text-[#1F0730] text-3xl md:text-lg font-semibold px-4 py-3 gap-1 rounded-full inline-flex items-center transition duration-300 ease-out">
+            <a href="#popular-tours" class="bg-[#EFD64D] hover:bg-[#EBE359] text-[#1F0730] text-base font-semibold px-4 py-3 gap-1 rounded-full inline-flex items-center transition duration-300 ease-out">
                 <span>Explore Tours</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="m6 9 6 6 6-6" />

@@ -1,6 +1,6 @@
 <div class="relative py-10 bg-[#F8F8F5] h-fit">
-    <iframe class="w-full h-screen" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d488799.6759135168!2d95.85190884071181!3d16.83887949381721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1949e223e196b%3A0x56fbd271f8080bb4!2sYangon!5e0!3m2!1sen!2smm!4v1780893236407!5m2!1sen!2smm" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <div class="absolute inset-y-25 left-0 space-y-4 w-2xl bg-white rounded-2xl shadow-2xl px-8 py-6 mx-10">
+    <iframe class="w-full h-screen md:h-150 lg:h-screen" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d488799.6759135168!2d95.85190884071181!3d16.83887949381721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1949e223e196b%3A0x56fbd271f8080bb4!2sYangon!5e0!3m2!1sen!2smm!4v1780893236407!5m2!1sen!2smm" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="absolute inset-y-25 md:inset-y-15 lg:inset-y-25 left-0 space-y-4 w-lg lg:w-2xl bg-white rounded-2xl shadow-2xl px-8 py-6 mx-10">
         <div class="text-left text-[#1F0730] mb-6">
             <h4 class="text-4xl font-semibold mb-6">How Can We Help You?</h4>
             <p class="text-[#3E465F] text-lg font-medium leading-normal">
@@ -15,7 +15,7 @@
                     <path d="M20 29C20.8284 29 21.5 28.3284 21.5 27.5C21.5 26.6716 20.8284 26 20 26C19.1716 26 18.5 26.6716 18.5 27.5C18.5 28.3284 19.1716 29 20 29Z" fill="#2E3192" />
                 </svg>
             </div>
-            <div class="w-full space-y-2 text-base font-normal my-auto">
+            <div class="w-full space-y-2 md:space-y-1 lg:space-y-2 text-base font-normal my-auto">
                 <h5 class="text-xl font-semibold">Call us within 9:30 am - 5:30 pm</h5>
                 <div class="flex justify-between leading-8">
                     <span>09 79 79 79 144 (Air Tickets)</span>
@@ -36,7 +36,7 @@
                     <path d="M22 17.5C22 17.2348 21.8946 16.9804 21.7071 16.7929C21.5196 16.6054 21.2652 16.5 21 16.5M23.5 17.5C23.5 16.837 23.2366 16.2011 22.7678 15.7322C22.2989 15.2634 21.663 15 21 15M25 17.5C25 16.4391 24.5786 15.4217 23.8284 14.6716C23.0783 13.9214 22.0609 13.5 21 13.5" stroke="#2E3192" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
             </div>
-            <div class="w-full space-y-2 text-base font-normal my-auto">
+            <div class="w-full space-y-2 md:space-y-1 lg:space-y-2 text-base font-normal my-auto">
                 <h5 class="text-xl font-semibold">Keep in touch with us</h5>
                 <div class="flex justify-between leading-8">
                     <span>09 79 79 79 144</span>
@@ -48,7 +48,7 @@
                 </div>
             </div>
         </div>
-        <div class="text-[#1F0730] text-center space-y-4">
+        <div class="text-[#1F0730] text-center space-y-4 md:space-y-1 lg:space-y-4">
             <hr class="my-4 border-[#2E319280] opacity-50">
             <h5 class="text-[#3E465F] text-xs font-normal">Or</h5>
             <h5 class="text-xl font-semibold">Tell us about your plan</h5>

@@ -1,9 +1,9 @@
 <div class="layout1 text-[#3E465F]">
     <!-- Our Services -->
-    <div class="text-center mx-10 md:mx-40">
+    <div class="text-center mx-10 md:mx-20">
         <h4 class="text-black text-4xl font-semibold leading-tight">Our Services</h4>
         <p class="text-lg text-[#626A82] font-medium py-3">A comprehensive range of travel and lifestyle services tailored to your needs.</p>
-        <div class="grid grid-cols-2 gap-8 mt-5">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 mt-5">
             <a href="tour.php">
                 <div class="flex text-left gap-6 p-6 hover:bg-white hover:shadow-lg rounded-2xl">
                     <div class="my-auto">

@@ -3,7 +3,7 @@
         <h4 class="text-4xl font-semibold leading-tight">Most Popular Tours & Packages</h4>
         <div class="flex justify-between pb-5">
             <p class="text-lg text-[#3E465F] font-medium py-3 max-w-2/3">Discover bespoke travel experiences curated by experts to ensure every moment becomes an unforgettable memory.</p>
-            <a href="tour.php" class="hover:bg-[#EBE359] max-w-1/3 text-base font-medium px-4 py-3 gap-1 rounded-full inline-flex items-center transition duration-300 ease-out">
+            <a href="tour.php" class="hover:bg-[#EBE359] max-w-1/3 text-base font-medium px-4 py-3 gap-1 my-auto rounded-full inline-flex items-center transition duration-300 ease-out">
                 <span>View All Tours</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="m9 18 6-6-6-6" />
@@ -11,7 +11,7 @@
             </a>
         </div>
         <!-- Card -->
-        <div class="grid grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <?php for ($i = 0; $i < 3; $i++): ?>
                 <div class="card bg-white hover:shadow-lg rounded-2xl overflow-hidden transition-shadow duration-300">
                     <img src="assets/img/tour1.jpg" alt="" class="w-full h-80 object-cover rounded-t-2xl">
