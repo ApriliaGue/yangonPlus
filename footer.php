@@ -1,79 +1,74 @@
-<footer class="w-full bg-[#FFFFFF] text-[#3E465F] text-base font-normal mt-auto">
-    <div class="px-6 py-10 flex flex-col md:flex-row justify-between items-start gap-4 flex-wrap">
-        <!-- Column 1 -->
-        <div class="w-72 space-y-3">
-            <div class="flex items-start">
-                <img src="assets/img/logo.png" alt="" class="h-11 object-contain">
+<footer class="w-full bg-[#FFFFFF] text-[#3E465F] text-base font-normal mt-auto border-t border-gray-100">
+    <div class="max-w-7xl mx-auto px-6 py-12">
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 xl:gap-12 mb-10">
+
+            <div class="space-y-4">
+                <div class="flex items-start">
+                    <img src="assets/img/logo.png" alt="Yangon Plus Travel & Tour Logo" class="h-11 object-contain">
+                </div>
+                <p class="text-sm sm:text-base font-medium text-[#626A82] leading-relaxed">
+                    Your trusted partner for exploring the hidden wonders of Myanmar. Adventure awaits around every corner.
+                </p>
+                <div class="flex items-center gap-3 pt-2">
+                    <a href="#" aria-label="Facebook Link" class="hover:scale-105 transition-transform">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="36" height="36" rx="18" fill="#EFD64D" fill-opacity="0.3" />
+                            <path d="M26 18.0485C26 13.603 22.418 9.99927 17.9995 9.99927C13.581 9.99927 9.99902 13.603 9.99902 18.0485C9.99902 22.0661 12.9247 25.396 16.7494 25.9999V20.3752H14.7181V18.0485H16.7494V16.2751C16.7494 14.2578 17.9438 13.1435 19.7713 13.1435C20.6466 13.1435 21.5622 13.3007 21.5622 13.3007V15.2816H20.5534C19.5595 15.2816 19.2496 15.902 19.2496 16.5386V18.0485H21.4684L21.1137 20.3752H19.2496V25.9999C23.0743 25.396 26 22.0661 26 18.0485Z" fill="#2E3192" />
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Telegram Link" class="hover:scale-105 transition-transform">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="36" height="36" rx="18" fill="#EFD64D" fill-opacity="0.3" />
+                            <path d="M26 18C26 22.4183 22.4183 26 18 26C13.5817 26 10 22.4183 10 18C10 13.5817 13.5817 10 18 10C22.4183 10 26 13.5817 26 18ZM18.2867 15.906C17.5086 16.2296 15.9535 16.8995 13.6213 17.9156C13.2426 18.0662 13.0442 18.2135 13.0262 18.3576C12.9956 18.601 13.3005 18.6969 13.7157 18.8274C13.7722 18.8452 13.8307 18.8636 13.8907 18.8831C14.2991 19.0159 14.8486 19.1712 15.1342 19.1774C15.3933 19.183 15.6825 19.0762 16.0018 18.8569C18.1808 17.386 19.3056 16.6426 19.3762 16.6265C19.4261 16.6152 19.4951 16.601 19.5419 16.6426C19.5887 16.6842 19.5841 16.7629 19.5791 16.784C19.5489 16.9128 18.3521 18.0254 17.7328 18.6012C17.5397 18.7807 17.4028 18.908 17.3748 18.9371C17.312 19.0023 17.2481 19.0639 17.1867 19.1231C16.8072 19.4889 16.5226 19.7632 17.2024 20.2112C17.5291 20.4265 17.7905 20.6045 18.0513 20.7821C18.3362 20.9761 18.6202 21.1695 18.9878 21.4105C19.0814 21.4718 19.1709 21.5356 19.258 21.5977C19.5894 21.834 19.8872 22.0463 20.2551 22.0124C20.4689 21.9928 20.6897 21.7918 20.8018 21.1923C21.0668 19.7755 21.5878 16.7057 21.7082 15.4407C21.7187 15.3299 21.7055 15.188 21.6948 15.1258C21.6842 15.0635 21.6619 14.9748 21.581 14.9091C21.4851 14.8313 21.3371 14.8149 21.2709 14.8161C20.9701 14.8214 20.5084 14.9819 18.2867 15.906Z" fill="#2E3192" />
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Messenger Link" class="hover:scale-105 transition-transform">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="36" height="36" rx="18" fill="#EFD64D" fill-opacity="0.3" />
+                            <path d="M10 17.76C10 13.3011 13.4934 10 18 10C22.5066 10 26 13.3011 26 17.76C26 22.2189 22.5066 25.52 18 25.52C17.1905 25.52 16.4139 25.4131 15.6842 25.2125C15.5424 25.1734 15.3916 25.1845 15.257 25.2438L13.6691 25.9448C13.2537 26.1282 12.7848 25.8328 12.7709 25.3789L12.7274 23.9558C12.722 23.7805 12.6431 23.6166 12.5124 23.4997C10.9558 22.1076 10 20.0923 10 17.76ZM15.546 16.3011L13.196 20.0294C12.9705 20.3872 13.4103 20.7904 13.7472 20.5348L16.2715 18.619C16.4423 18.4894 16.6782 18.4887 16.8497 18.6173L18.7188 20.0192C19.2797 20.4398 20.0802 20.2921 20.454 19.699L22.804 15.9707C23.0295 15.6129 22.5897 15.2097 22.2528 15.4653L19.7285 17.3811C19.5577 17.5107 19.3218 17.5114 19.1503 17.3828L17.2812 15.9809C16.7203 15.5603 15.9198 15.708 15.546 16.3011Z" fill="#2E3192" />
+                        </svg>
+                    </a>
+                </div>
             </div>
-            <p class="text-lg font-medium text-[#626A82] leading-relaxed py-2">
-                Your trusted partner for exploring the hidden wonders of Myanmar. Adventure awaits around every corner.
+
+            <div class="space-y-3">
+                <h6 class="text-[#1F0730] font-semibold text-lg tracking-wide">Company</h6>
+                <ul class="space-y-2.5">
+                    <li><a href="index.php" class="hover:text-[#2E3192] transition-colors duration-200 block py-0.5">Home</a></li>
+                    <li><a href="about.php" class="hover:text-[#2E3192] transition-colors duration-200 block py-0.5">About Us</a></li>
+                    <li><a href="contactus.php" class="hover:text-[#2E3192] transition-colors duration-200 block py-0.5">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="space-y-3">
+                <h6 class="text-[#1F0730] font-semibold text-lg tracking-wide">Tour Packages</h6>
+                <ul class="space-y-2.5">
+                    <li><a href="#" class="hover:text-[#2E3192] transition-colors duration-200 block py-0.5">Family Packages</a></li>
+                    <li><a href="#" class="hover:text-[#2E3192] transition-colors duration-200 block py-0.5">Pilgrimage Tour</a></li>
+                    <li><a href="#" class="hover:text-[#2E3192] transition-colors duration-200 block py-0.5">Group & Private Tours</a></li>
+                </ul>
+            </div>
+
+            <div class="space-y-3">
+                <h6 class="text-[#1F0730] font-semibold text-lg tracking-wide">Our Services</h6>
+                <ul class="space-y-2.5">
+                    <li><a href="tour.php" class="hover:text-[#2E3192] transition-colors duration-200 block py-0.5">Tour Package</a></li>
+                    <li><a href="flightbooking.php" class="hover:text-[#2E3192] transition-colors duration-200 block py-0.5">Flight Booking</a></li>
+                    <li><a href="visa.php" class="hover:text-[#2E3192] transition-colors duration-200 block py-0.5">Visa Assistance</a></li>
+                    <li><a href="golftour.php" class="hover:text-[#2E3192] transition-colors duration-200 block py-0.5">Golf Tour</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="border-t border-gray-200/60 pt-6 text-center">
+            <p class="text-sm sm:text-base font-normal text-[#1F0730]">
+                &copy; 2026 Yangon Plus Travel & Tour. All rights reserved.
             </p>
-            <!-- Social Media -->
-            <div class="flex items-start gap-4">
-                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="36" height="36" rx="18" fill="#EFD64D" fill-opacity="0.3" />
-                    <path d="M26 18.0485C26 13.603 22.418 9.99927 17.9995 9.99927C13.581 9.99927 9.99902 13.603 9.99902 18.0485C9.99902 22.0661 12.9247 25.396 16.7494 25.9999V20.3752H14.7181V18.0485H16.7494V16.2751C16.7494 14.2578 17.9438 13.1435 19.7713 13.1435C20.6466 13.1435 21.5622 13.3007 21.5622 13.3007V15.2816H20.5534C19.5595 15.2816 19.2496 15.902 19.2496 16.5386V18.0485H21.4684L21.1137 20.3752H19.2496V25.9999C23.0743 25.396 26 22.0661 26 18.0485Z" fill="#2E3192" />
-                </svg>
-                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="36" height="36" rx="18" fill="#EFD64D" fill-opacity="0.3" />
-                    <path d="M26 18C26 22.4183 22.4183 26 18 26C13.5817 26 10 22.4183 10 18C10 13.5817 13.5817 10 18 10C22.4183 10 26 13.5817 26 18ZM18.2867 15.906C17.5086 16.2296 15.9535 16.8995 13.6213 17.9156C13.2426 18.0662 13.0442 18.2135 13.0262 18.3576C12.9956 18.601 13.3005 18.6969 13.7157 18.8274C13.7722 18.8452 13.8307 18.8636 13.8907 18.8831C14.2991 19.0159 14.8486 19.1712 15.1342 19.1774C15.3933 19.183 15.6825 19.0762 16.0018 18.8569C18.1808 17.386 19.3056 16.6426 19.3762 16.6265C19.4261 16.6152 19.4951 16.601 19.5419 16.6426C19.5887 16.6842 19.5841 16.7629 19.5791 16.784C19.5489 16.9128 18.3521 18.0254 17.7328 18.6012C17.5397 18.7807 17.4028 18.908 17.3748 18.9371C17.312 19.0023 17.2481 19.0639 17.1867 19.1231C16.8072 19.4889 16.5226 19.7632 17.2024 20.2112C17.5291 20.4265 17.7905 20.6045 18.0513 20.7821C18.3362 20.9761 18.6202 21.1695 18.9878 21.4105C19.0814 21.4718 19.1709 21.5356 19.258 21.5977C19.5894 21.834 19.8872 22.0463 20.2551 22.0124C20.4689 21.9928 20.6897 21.7918 20.8018 21.1923C21.0668 19.7755 21.5878 16.7057 21.7082 15.4407C21.7187 15.3299 21.7055 15.188 21.6948 15.1258C21.6842 15.0635 21.6619 14.9748 21.581 14.9091C21.4851 14.8313 21.3371 14.8149 21.2709 14.8161C20.9701 14.8214 20.5084 14.9819 18.2867 15.906Z" fill="#2E3192" />
-                </svg>
-                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="36" height="36" rx="18" fill="#EFD64D" fill-opacity="0.3" />
-                    <path d="M10 17.76C10 13.3011 13.4934 10 18 10C22.5066 10 26 13.3011 26 17.76C26 22.2189 22.5066 25.52 18 25.52C17.1905 25.52 16.4139 25.4131 15.6842 25.2125C15.5424 25.1734 15.3916 25.1845 15.257 25.2438L13.6691 25.9448C13.2537 26.1282 12.7848 25.8328 12.7709 25.3789L12.7274 23.9558C12.722 23.7805 12.6431 23.6166 12.5124 23.4997C10.9558 22.1076 10 20.0923 10 17.76ZM15.546 16.3011L13.196 20.0294C12.9705 20.3872 13.4103 20.7904 13.7472 20.5348L16.2715 18.619C16.4423 18.4894 16.6782 18.4887 16.8497 18.6173L18.7188 20.0192C19.2797 20.4398 20.0802 20.2921 20.454 19.699L22.804 15.9707C23.0295 15.6129 22.5897 15.2097 22.2528 15.4653L19.7285 17.3811C19.5577 17.5107 19.3218 17.5114 19.1503 17.3828L17.2812 15.9809C16.7203 15.5603 15.9198 15.708 15.546 16.3011Z" fill="#2E3192" />
-                </svg>
-                <!-- <a href="" class="w-9 h-9 rounded-full bg-[#EFD64D4D] flex items-center justify-center">
-                    <svg class="w-4 h-4 fill-[#2E3192]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5l0-170.3-52.8 0 0-78.2 52.8 0 0-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4l0 70.8c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2l0 27.8 83.6 0-14.4 78.2-69.3 0 0 175.9C413.8 494.8 512 386.9 512 256z"/></svg>
-                </a>
-                <a href="" class="w-9 h-9 rounded-full bg-[#EFD64D4D] flex items-center justify-center">
-                    <svg class="w-4 h-4 fill-[#2E3192]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 8a248 248 0 1 0 0 496 248 248 0 1 0 0-496zM371 176.7c-3.7 39.2-19.9 134.4-28.1 178.3-3.5 18.6-10.3 24.8-16.9 25.4-14.4 1.3-25.3-9.5-39.3-18.7-21.8-14.3-34.2-23.2-55.3-37.2-24.5-16.1-8.6-25 5.3-39.5 3.7-3.8 67.1-61.5 68.3-66.7 .2-.7 .3-3.1-1.2-4.4s-3.6-.8-5.1-.5c-2.2 .5-37.1 23.5-104.6 69.1-9.9 6.8-18.9 10.1-26.9 9.9-8.9-.2-25.9-5-38.6-9.1-15.5-5-27.9-7.7-26.8-16.3 .6-4.5 6.7-9 18.4-13.7 72.3-31.5 120.5-52.3 144.6-62.3 68.9-28.6 83.2-33.6 92.5-33.8 2.1 0 6.6 .5 9.6 2.9 2 1.7 3.2 4.1 3.5 6.7 .5 3.2 .6 6.5 .4 9.8z"/></svg>
-                </a>
-                <a href="" class="w-9 h-9 rounded-full bg-[#EFD64D4D] flex items-center justify-center">
-                    <svg class="w-4 h-4 fill-[#2E3192]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256.6 8c-140 0-248.6 102.3-248.6 240.6 0 72.3 29.7 134.8 78.1 177.9 8.3 7.5 6.6 11.9 8 58.2 .1 3.2 1 6.4 2.6 9.2s3.9 5.2 6.7 6.9 5.9 2.8 9.1 3 6.5-.3 9.5-1.6C174.9 479 175.6 477.2 184.6 479.6 337.8 521.8 504 423.7 504 248.6 504 110.3 396.6 8 256.6 8zM405.8 193.1l-73 115.6c-2.8 4.3-6.4 8.1-10.6 11s-9.1 4.8-14.1 5.8-10.3 .8-15.3-.4-9.7-3.4-13.8-6.4l-58.1-43.5c-2.6-1.9-5.8-3-9-3s-6.4 1.1-9 3l-78.4 59.4c-10.5 7.9-24.2-4.6-17.1-15.7l73-115.6c2.8-4.3 6.4-8.1 10.6-11s9.1-4.8 14.1-5.8 10.3-.8 15.3 .4 9.7 3.4 13.9 6.4l58.1 43.5c2.6 1.9 5.8 3 9 3s6.4-1.1 9-3l78.4-59.4c10.4-8 24.1 4.5 17.1 15.6z"/></svg>
-                </a> -->
-            </div>
         </div>
-        <!-- Column 2 -->
-        <div class="w-40 space-y-3">
-            <h6 class="text-[#1F0730] font-medium">Company</h6>
-            <ul class="leading-10">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="about.php">About Us</a></li>
-                <li><a href="contactus.php">Contact Us</a></li>
-            </ul>
-        </div>
-        <!-- Column 3 -->
-        <div class="w-40 space-y-3">
-            <h6 class="text-[#1F0730] font-medium">Tour Packages</h6>
-            <ul class="leading-10">
-                <li>Family Packages</li>
-                <li>Pilgrimage Tour</li>
-                <li>Group & Private Tours</li>
-            </ul>
-        </div>
-        <!-- Column 4 -->
-        <div class="w-120 space-y-3">
-            <h6 class="text-[#1F0730] font-medium">Our Services</h6>
-            <div class="flex gap-20">
-                <ul class="leading-10">
-                    <li><a href="tour.php">Tour Package</a></li>
-                    <li><a href="flightbooking.php">Flight Booking</a></li>
-                    <li><a href="hotel.php">Hotel Reservation</a></li>
-                    <li><a href="car.php">Car Rental/ Airport Transfer</a></li>
-                    <li><a href="visa.php">Visa Assistance</a></li>
-                </ul>
-                <ul class="leading-10">
-                    <li><a href="travel.php">Travel Insurance</a></li>
-                    <li><a href="golftour.php">Golf Tour</a></li>
-                    <li><a href="medical.php">Oversea Medical Treatment</a></li>
-                    <li><a href="study.php">Study Abroad</a></li>
-                </ul>
-            </div>
-        </div>
+
     </div>
-    <p class="border-t border-[#0000001A] py-5 text-center text-base font-normal text-[#1F0730]">
-        &copy; 2024 Yangon Plus Travel & Tour. All rights reserved.
-    </p>
 </footer>
 </body>
 
