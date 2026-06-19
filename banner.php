@@ -1,4 +1,4 @@
-<div class="layout1">
+<div class="px-4 py-6 md:py-8 bg-[#F8F8F5]">
     <div class="carousel">
         <div class="banner">
             <img src="assets/img/promo1.png" alt="" class="img">

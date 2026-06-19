@@ -1,13 +1,11 @@
-<footer class="w-full bg-[#FFFFFF] text-[#3E465F] text-base font-normal mt-auto border-t border-gray-100">
-    <div class="max-w-7xl mx-auto px-6 py-12">
-
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 xl:gap-12 mb-10">
-
+<footer class="w-full bg-[#FFFFFF] text-[#3E465F] text-base font-normal">
+    <div class="container-default ">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12 lg:gap-0 py-10">
             <div class="space-y-4">
                 <div class="flex items-start">
-                    <img src="assets/img/logo.png" alt="Yangon Plus Travel & Tour Logo" class="h-11 object-contain">
+                    <img src="assets/img/logo.png" alt="Yangon Plus Travel & Tour Logo" class="h-8 md:h-11 object-contain">
                 </div>
-                <p class="text-sm sm:text-base font-medium text-[#626A82] leading-relaxed">
+                <p class="text-base sm:text-lg font-medium text-[#626A82] leading-relaxed">
                     Your trusted partner for exploring the hidden wonders of Myanmar. Adventure awaits around every corner.
                 </p>
                 <div class="flex items-center gap-3 pt-2">
@@ -31,43 +29,37 @@
                     </a>
                 </div>
             </div>
-
-            <div class="space-y-3">
-                <h6 class="text-[#1F0730] font-semibold text-lg tracking-wide">Company</h6>
-                <ul class="space-y-2.5">
-                    <li><a href="index.php" class="hover:text-[#2E3192] transition-colors duration-200 block py-0.5">Home</a></li>
-                    <li><a href="about.php" class="hover:text-[#2E3192] transition-colors duration-200 block py-0.5">About Us</a></li>
-                    <li><a href="contactus.php" class="hover:text-[#2E3192] transition-colors duration-200 block py-0.5">Contact Us</a></li>
+            <div class="space-y-5 text-base lg:mx-auto">
+                <h6 class="text-[#1F0730] font-medium tracking-wide">Company</h6>
+                <ul class="space-y-3">
+                    <li><a href="index.php" class="hover:text-[#2E3192] transition-colors duration-200">Home</a></li>
+                    <li><a href="about.php" class="hover:text-[#2E3192] transition-colors duration-200">About Us</a></li>
+                    <li><a href="contactus.php" class="hover:text-[#2E3192] transition-colors duration-200">Contact Us</a></li>
                 </ul>
             </div>
-
-            <div class="space-y-3">
-                <h6 class="text-[#1F0730] font-semibold text-lg tracking-wide">Tour Packages</h6>
-                <ul class="space-y-2.5">
-                    <li><a href="#" class="hover:text-[#2E3192] transition-colors duration-200 block py-0.5">Family Packages</a></li>
-                    <li><a href="#" class="hover:text-[#2E3192] transition-colors duration-200 block py-0.5">Pilgrimage Tour</a></li>
-                    <li><a href="#" class="hover:text-[#2E3192] transition-colors duration-200 block py-0.5">Group & Private Tours</a></li>
+            <div class="space-y-5 text-base lg:mx-auto">
+                <h6 class="text-[#1F0730] font-medium tracking-wide">Tour Packages</h6>
+                <ul class="space-y-3">
+                    <li><a href="#" class="hover:text-[#2E3192] transition-colors duration-200">Family Packages</a></li>
+                    <li><a href="#" class="hover:text-[#2E3192] transition-colors duration-200">Pilgrimage Tour</a></li>
+                    <li><a href="#" class="hover:text-[#2E3192] transition-colors duration-200">Group & Private Tours</a></li>
                 </ul>
             </div>
-
-            <div class="space-y-3">
-                <h6 class="text-[#1F0730] font-semibold text-lg tracking-wide">Our Services</h6>
-                <ul class="space-y-2.5">
-                    <li><a href="tour.php" class="hover:text-[#2E3192] transition-colors duration-200 block py-0.5">Tour Package</a></li>
-                    <li><a href="flightbooking.php" class="hover:text-[#2E3192] transition-colors duration-200 block py-0.5">Flight Booking</a></li>
-                    <li><a href="visa.php" class="hover:text-[#2E3192] transition-colors duration-200 block py-0.5">Visa Assistance</a></li>
-                    <li><a href="golftour.php" class="hover:text-[#2E3192] transition-colors duration-200 block py-0.5">Golf Tour</a></li>
+            <div class="space-y-5 text-base lg:mx-auto">
+                <h6 class="text-[#1F0730] font-medium tracking-wide">Our Services</h6>
+                <ul class="space-y-3">
+                    <li><a href="tour.php" class="hover:text-[#2E3192] transition-colors duration-200">Tour Package</a></li>
+                    <li><a href="flightbooking.php" class="hover:text-[#2E3192] transition-colors duration-200">Flight Booking</a></li>
+                    <li><a href="visa.php" class="hover:text-[#2E3192] transition-colors duration-200">Visa Assistance</a></li>
+                    <li><a href="golftour.php" class="hover:text-[#2E3192] transition-colors duration-200">Golf Tour</a></li>
                 </ul>
             </div>
-
         </div>
-
-        <div class="border-t border-gray-200/60 pt-6 text-center">
-            <p class="text-sm sm:text-base font-normal text-[#1F0730]">
-                &copy; 2026 Yangon Plus Travel & Tour. All rights reserved.
-            </p>
-        </div>
-
+    </div>
+    <div class="w-full border-t border-gray-300 py-4 text-center">
+        <p class="text-sm md:text-base text-[#1F0730]">
+            &copy; 2026 Yangon Plus Travel & Tour. All rights reserved.
+        </p>
     </div>
 </footer>
 </body>

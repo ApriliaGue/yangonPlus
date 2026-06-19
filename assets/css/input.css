@@ -10,12 +10,6 @@
   .container-default {
     @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
   }
-  .layout1 {
-    @apply mx-auto p-10 bg-[#F8F8F5];
-  }
-  .layout2 {
-    @apply mx-auto p-10 bg-white;
-  }
   .text-border {
     -webkit-text-stroke: 1px rgba(0, 0, 0, 0.31);
     paint-order: stroke fill;
