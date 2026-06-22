@@ -14,27 +14,24 @@
     -webkit-text-stroke: 1px rgba(0, 0, 0, 0.31);
     paint-order: stroke fill;
   }
-  .carousel { display: flex; overflow: hidden; }
-  .banner {
-    display: flex;
-    flex-shrink: 0;
-    min-width: 100%;
-    padding-left: 30px;
-    gap: 30px;
-    animation: moveLeft 8000ms linear 1ms infinite;
+  .mySwiper .swiper-wrapper {
+    transition-timing-function: linear !important;
   }
-  /* .carousel:hover .banner{
-    animation-play-state: paused;
-  } */
+  .mySwiper .swiper-slide {
+    width: auto !important;
+  }
   .img {
-    min-width: 400px;
+    width: 400px;
     height: 280px;
     object-fit: cover;
     border-radius: 16px;
+    display: block;
   }
-  @keyframes moveLeft {
-    0% { transform: translateX(0%); }
-    100% { transform: translateX(-100%); }
+  @media (max-width: 768px) {
+    .img {
+      width: 280px;
+      height: 190px;
+    }
   }
   .hero-zoom {
     animation: heroZoom 12s ease-in-out infinite alternate;

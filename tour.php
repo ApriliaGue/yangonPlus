@@ -4,7 +4,7 @@
     <img src="assets/img/bg2.png" alt="" class="absolute inset-0 w-full h-full object-cover">
     <div class="relative container-default space-y-1 md:space-y-4">
         <h1 class="text-2xl md:text-4xl text-[#1F0730] font-semibold">Tour Packages</h1>
-        <p class="text-base sm:text-lg text-[#3E465F] font-medium text-pretty">
+        <p class="md:max-w-3xl md:mx-auto text-base sm:text-lg text-[#3E465F] font-medium text-pretty">
             We offer customized local and international tour packages to suit your travel preferences and budget. Whether you're planning a romantic getaway, a family vacation, or a group adventure, we provide full arrangements including accommodation, sightseeing, and guided tours.
         </p>
     </div>

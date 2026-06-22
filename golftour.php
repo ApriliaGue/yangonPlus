@@ -4,7 +4,7 @@
     <img src="assets/img/bg2.png" alt="" class="absolute inset-0 w-full h-full object-cover">
     <div class="relative container-default space-y-1 md:space-y-4">
         <h1 class="text-2xl md:text-4xl text-[#1F0730] font-semibold">Golf Tour</h1>
-        <p class="text-base md:text-lg text-[#3E465F] font-medium text-pretty">
+        <p class="md:max-w-3xl md:mx-auto text-base md:text-lg text-[#3E465F] font-medium text-pretty">
             We organize exclusive golf tours to top-rated golf courses in Myanmar and abroad, with accommodation, transport, and caddie arrangements.
         </p>
     </div>

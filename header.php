@@ -7,12 +7,13 @@
     <title>Yangon Plus</title>
     <link rel="stylesheet" href="assets/css/output.css">
     <link rel="icon" type="image/png" href="/assets/img/logo-small.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body class="font-sans">
     <?php
     $current_page = basename($_SERVER['PHP_SELF']);
-    $is_home = ($current_page === 'home.php' || $current_page === 'index.php' || $current_page === '');
+    $is_home = ($current_page === 'index.php' || $current_page === 'index.php' || $current_page === '');
     $dropdown_active = in_array($current_page, ['tour.php', 'flightbooking.php', 'visa.php', 'golftour.php', 'tour-detail.php', 'tour-inquiry.php', 'flightbooking-detail.php', 'golftour-detail.php', 'golftour-inquiry.php', 'hotel.php', 'car.php', 'travel.php', 'medical.php', 'study.php']);
     ?>
     <header class="sticky top-0 z-50 w-full bg-white">
@@ -68,7 +69,7 @@
             </button>
         </div>
         <nav class="flex flex-col p-6 space-y-4 text-xl font-medium text-gray-900">
-            <a href="home.php" class="py-2.5 px-3 rounded-xl transition-colors hover:bg-gray-100/60 <?php echo $is_home ? 'font-semibold text-[#2E3192] bg-white shadow-sm' : ''; ?>">Home</a>
+            <a href="index.php" class="py-2.5 px-3 rounded-xl transition-colors hover:bg-gray-100/60 <?php echo $is_home ? 'font-semibold text-[#2E3192] bg-white shadow-sm' : ''; ?>">Home</a>
             <div class="space-y-1">
                 <button id="mobile-dropdown-toggle" class="w-full flex justify-between items-center py-2.5 px-3 rounded-xl text-left focus:outline-none transition-colors hover:bg-gray-100/60 <?php echo $dropdown_active ? 'font-semibold text-[#2E3192]' : ''; ?>">
                     <span>Our Services</span>

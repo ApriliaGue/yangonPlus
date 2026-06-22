@@ -4,7 +4,7 @@
     <img src="assets/img/contactus.jpg" alt="" class="absolute inset-0 opacity-50 w-full h-full object-cover">
     <div class="relative container-default space-y-4">
         <h1 class="text-2xl md:text-4xl text-[#FFFFFF] font-semibold">Contact us</h1>
-        <p class="text-base md:text-lg text-[#F8F8F5] font-medium">
+        <p class="md:max-w-3xl md:mx-auto text-base md:text-lg text-[#F8F8F5] font-medium text-pretty">
             We are here to help your perfect trip. Reach out for flights, tours and visa assistance.
         </p>
     </div>

@@ -4,7 +4,7 @@
     <img src="assets/img/about.jpg" alt="" class="absolute inset-0 opacity-50 w-full h-full object-cover">
     <div class="relative container-default space-y-4">
         <h1 class="text-2xl md:text-4xl text-[#FFFFFF] font-semibold">About us</h1>
-        <p class="text-base md:text-lg text-[#F8F8F5] font-medium">
+        <p class="md:max-w-3xl md:mx-auto text-base md:text-lg text-[#F8F8F5] font-medium text-pretty">
             Yangon Plus Travel & Tour Co., Ltd. was founded in 2015 with the vision to make travel easier and more enjoyable for everyone. Over the past 10 years, we’ve built strong relationships with travelers and partners both locally and internationally.
         </p>
     </div>
@@ -73,14 +73,14 @@
             </div>
             <div class="w-full lg:w-3/4 space-y-2 lg:space-y-4">
                 <?php $active_team = isset($_GET['team']) ? $_GET['team'] : 'air'; ?>
-                <div class="flex flex-wrap space-x-2 text-sm md:text-base font-medium">
-                    <a href="?team=air#team" class="px-2 py-1.5 md:px-4 md:py-3 rounded-full cursor-pointer transition-colors duration-200 select-none <?php echo ($active_team === 'air') ? 'bg-[#EFD64D] text-[#1F0730]' : 'bg-[#EFD64D1A] hover:bg-[#EBE359]'; ?>">
+                <div class="flex items-center overflow-x-auto space-x-2 text-sm md:text-base font-medium whitespace-nowrap mb-4">
+                    <a href="?team=air#team" class="shrink-0 px-4 py-3 rounded-full cursor-pointer transition-colors duration-200 select-none <?php echo ($active_team === 'air') ? 'bg-[#EFD64D] text-[#1F0730]' : 'bg-[#EFD64D1A] hover:bg-[#EBE359]'; ?>">
                         Air Ticket Team
                     </a>
-                    <a href="?team=visa#team" class="px-2 py-1.5 md:px-4 md:py-3 rounded-full cursor-pointer transition-colors duration-200 select-none <?php echo ($active_team === 'visa') ? 'bg-[#EFD64D] text-[#1F0730]' : 'bg-[#EFD64D1A] hover:bg-[#EBE359]'; ?>">
+                    <a href="?team=visa#team" class="shrink-0 px-4 py-3 rounded-full cursor-pointer transition-colors duration-200 select-none <?php echo ($active_team === 'visa') ? 'bg-[#EFD64D] text-[#1F0730]' : 'bg-[#EFD64D1A] hover:bg-[#EBE359]'; ?>">
                         Visa & Tour Packages Team
                     </a>
-                    <a href="?team=education#team" class="px-2 py-1.5 md:px-4 md:py-3 rounded-full cursor-pointer transition-colors duration-200 select-none <?php echo ($active_team === 'education') ? 'bg-[#EFD64D] text-[#1F0730]' : 'bg-[#EFD64D1A] hover:bg-[#EBE359]'; ?>">
+                    <a href="?team=education#team" class="shrink-0 px-4 py-3 rounded-full cursor-pointer transition-colors duration-200 select-none <?php echo ($active_team === 'education') ? 'bg-[#EFD64D] text-[#1F0730]' : 'bg-[#EFD64D1A] hover:bg-[#EBE359]'; ?>">
                         Education Consultation Team
                     </a>
                 </div>

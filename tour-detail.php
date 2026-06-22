@@ -162,29 +162,59 @@
             <div class="flex justify-between">
                 <h4 class="text-2xl md:text-4xl font-semibold text-black my-auto">Other travel tours</h4>
                 <div class="flex justify-end gap-3">
-                    <button type="button" class="flex w-10 h-10 md:h-14 md:w-14 items-center justify-center rounded-sm bg-[#EEEEEE] opacity-40">
+                    <button type="button" class="swiper-prev-btn cursor-pointer flex w-10 h-10 md:h-14 md:w-14 items-center justify-center rounded-sm bg-[#EEEEEE] transition duration-300 active:scale-95 disabled:opacity-40">
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3536 1.64645C11.5488 1.84171 11.5488 2.15829 11.3536 2.35355L5.70711 8L11.3536 13.6464C11.5488 13.8417 11.5488 14.1583 11.3536 14.3536C11.1583 14.5488 10.8417 14.5488 10.6464 14.3536L4.64645 8.35355C4.45118 8.15829 4.45118 7.84171 4.64645 7.64645L10.6464 1.64645C10.8417 1.45118 11.1583 1.45118 11.3536 1.64645Z" fill="#3E465F" />
                         </svg>
                     </button>
-                    <button type="button" class="flex w-10 h-10 md:h-14 md:w-14 items-center justify-center rounded-sm bg-[#EEEEEE]">
+                    <button type="button" class="swiper-next-btn cursor-pointer flex w-10 h-10 md:h-14 md:w-14 items-center justify-center rounded-sm bg-[#EEEEEE] transition duration-300 active:scale-95 disabled:opacity-40">
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M4.64645 1.64645C4.84171 1.45118 5.15829 1.45118 5.35355 1.64645L11.3536 7.64645C11.5488 7.84171 11.5488 8.15829 11.3536 8.35355L5.35355 14.3536C5.15829 14.5488 4.84171 14.5488 4.64645 14.3536C4.45118 14.1583 4.45118 13.8417 4.64645 13.6464L10.2929 8L4.64645 2.35355C4.45118 2.15829 4.45118 1.84171 4.64645 1.64645Z" fill="#151567" />
                         </svg>
                     </button>
                 </div>
             </div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
-                <?php for ($i = 0; $i < 4; $i++): ?>
-                    <div class="card bg-white hover:shadow-lg rounded-2xl overflow-hidden transition-shadow duration-300">
-                        <img src="assets/img/tour4.jpg" alt="" class="aspect-square object-cover rounded-t-2xl">
-                        <div class="p-4">
-                            <h5 class="text-xl font-semibold text-[#1F0730]">Mandalay Cultural Heritage Tour</h5>
+            <div class="swiper toursSwiper overflow-hidden">
+                <div class="swiper-wrapper pb-4">
+                    <?php for ($i = 0; $i < 6; $i++): ?>
+                        <div class="swiper-slide h-auto">
+                            <div class="bg-white hover:shadow-md rounded-2xl overflow-hidden transition-shadow duration-300 h-full">
+                                <img src="assets/img/tour4.jpg" alt="" class="aspect-square object-cover w-full rounded-t-2xl">
+                                <div class="p-4">
+                                    <h5 class="text-xl font-semibold text-[#1F0730]">Mandalay Cultural Heritage Tour</h5>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                <?php endfor; ?>
+                    <?php endfor; ?>
+                </div>
             </div>
         </div>
     </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <?php include 'footer.php'; ?>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const swiper = new Swiper('.toursSwiper', {
+            slidesPerView: 1,
+            spaceBetween: 16,
+            navigation: {
+                nextEl: '.swiper-next-btn',
+                prevEl: '.swiper-prev-btn',
+            },
+            breakpoints: {
+                // sm: text matched grid-cols-2
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 16,
+                },
+                // lg: text matched grid-cols-4
+                1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 24,
+                },
+            },
+        });
+    });
+</script>
